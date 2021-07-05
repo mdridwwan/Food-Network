@@ -1,0 +1,207 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header-section {
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(90deg, red, orange);
+}
+
+.container {
+    height: 100%;
+    width: 50%;
+    margin: auto;
+}
+
+.navbar {}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    padding: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 31px 51px;
+    margin-left: 1px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background: rgb(245, 62, 62);
+}
+
+
+/* ...............home-banner...................... */
+
+#home-banner {
+    width: 100%;
+    display: flex;
+}
+
+.half-width {
+    margin: 1px 0px 0px 69px;
+    width: 40%;
+    height: 100%;
+    padding-left: 3%;
+}
+
+.half-width h1 {
+    width: 454px;
+    word-break: break-word;
+    margin: 138px 0 36px 23px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.half-width p {
+    width: 458px;
+    color: #a0a0a0;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.half-width a {
+    text-decoration: none;
+    background-image: linear-gradient( 90deg, #FBA24F, #FF1E1E);
+    padding: 14px 32px;
+    color: white;
+    border-radius: 27px;
+}
+
+.homeImg {
+    width: 100%;
+}
+
+#about-Me {
+    width: 100%;
+    background-image: url(image/7.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+}
+
+.my-love-img {
+    width: 60%;
+    height: 91%;
+    margin-top: 57px;
+    margin-left: 109px;
+}
+
+
+/* ..................myRecipies>>>>>>>>.............> */
+
+#myRecipies {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.recipiesDetails {
+    width: 700px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    color: #969696;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.recipiesDetails h1 {
+    color: #5a5959;
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.recipiesBlog {
+    display: flex;
+    margin-left: 20px;
+}
+
+.blogAll {
+    border-radius: 18px;
+    height: 414px;
+    width: 325px;
+    margin-left: 20px;
+    padding: 18px 10px 0px 15px;
+    box-shadow: 0px 0px 20px #b1b1b1;
+}
+
+.blogAll img {
+    width: 99%;
+    height: 54%;
+    border-radius: 20px;
+}
+
+.blogAll h3 {
+    margin-top: 26px;
+    font-weight: 800;
+    color: #000000;
+    font-size: 24px;
+}
+
+.blogAll p {
+    margin-top: 11px;
+    font-size: 17px;
+    word-break: break-all;
+    color: #757474;
+}
+
+.recipiesSubsc {
+    display: flex;
+    width: 100%;
+    height: 146px;
+    margin: 87px 0px;
+    box-shadow: 0px 0px 18px #bbbbbb;
+    border-radius: 15px;
+}
+
+.subsCribeDetails {
+    width: 33.1%;
+    height: 100%;
+    text-align: center;
+    color: #989898;
+}
+
+.subsCribeDetails h1 {
+    padding: 24px 62px 0px 0;
+    font-size: 43px;
+    color: #525252;
+    font-weight: bold;
+}
+
+footer {
+    background: black;
+    color: white;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+footer h1 {
+    padding-top: 47px;
+    padding-bottom: 17px;
+    color: #7b7b7b;
+    font-size: 36px;
+}
+
+footer p {
+    color: #a0a0a0;
+    font-weight: 800;
+}
+
+.spanP {
+    color: #fc8f49;
+    ;
+}
